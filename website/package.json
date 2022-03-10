@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "webpack",
-    "heroku:production": "webpack --config webpack.production.config.js --env.NODE_ENV=production && heroku buildpacks:set"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
